@@ -1,4 +1,3 @@
-/*
 //Problem 1
 for (var i = 0; i <= 1000; i += 100) {
   console.log(i);
@@ -63,7 +62,7 @@ for (var i = 0; i < 1000; i++) {
   }
 }
 console.log(multipleSum)
-*/
+
 //Program 4
 var empty = "";
 var pound = "#"
