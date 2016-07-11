@@ -1,0 +1,7 @@
+Describe variable scope in JavaScript and how it relates to functions:
+
+A. How far a variable can be used (i.e. globally vs. function only)
+
+Declaring vs. Defining a function:
+  Declaring: var x = function {}
+  
