@@ -111,4 +111,4 @@ function oddNumbers(int) {
   return i
 }
 
-oddNumbers(98);
+oddNumbers(48);
