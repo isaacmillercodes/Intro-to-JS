@@ -92,13 +92,13 @@ console.log(isDivisible(4, 2));
 /*Bonus: Write a function called oddNumbers that takes an arbitrary integer as an argument, from 0 to 100. If the number is greater than 40 then output all the odd integers from 40 to the arbitrary number. If the number is less than 40, output all the odd integers from 0 to 40.*/
 
 function oddNumbers(int) {
-  if (int > 0 && int <= 40) {
+  if (int > 0 && int <= 40 && Number.isInteger(int) === true) {
     for (var i = 0; i <= 40; i++) {
       if (i % 2 !== 0) {
         console.log(i);
       }
     }
-  } else if (int > 40) {
+  } else if (int > 40 && Number.isInteger(int) === true) {
       for (var i = 40; i <= int; i++) {
         if (i % 2 !== 0) {
           console.log(i);
@@ -110,4 +110,4 @@ function oddNumbers(int) {
   return i
 }
 
-oddNumbers(75);
+oddNumbers(98);
