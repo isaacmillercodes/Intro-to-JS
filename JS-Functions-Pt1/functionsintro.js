@@ -99,7 +99,7 @@ function oddNumbers(int) {
       }
     }
   } else if (int > 40) {
-      for (var i = 40; i <= 100; i++) {
+      for (var i = 40; i <= int; i++) {
         if (i % 2 !== 0) {
           console.log(i);
         }
