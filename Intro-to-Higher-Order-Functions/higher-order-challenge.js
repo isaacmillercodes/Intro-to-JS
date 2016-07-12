@@ -1,16 +1,24 @@
 function any (array) {
-  
+  for (var i = 0; i < array.length; i++) {
+    var greaterThan10 = function (num) {
+      if (num > 10) {
+        return true
+      } else {
+        return false
+      }
+    }
+  }
 }
 
-function greaterThan10 (num) {
+/*function greaterThan10 (num) {
   if (num > 10) {
     return true
   } else {
     return false
   }
 }
-
-any([ 8, 9, 10, 11 ], greaterThan10);
+*/
+console.log(any([ 8, 9, 10, 11 ], greaterThan10));
 
 /*
 surprise()()
